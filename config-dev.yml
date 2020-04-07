@@ -1,6 +1,6 @@
 config:
-  name: "config-dev.yml"
-  branch: "master-plush"
+  name: "config-dev-plush.yml"
+  branch: "master"
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
