@@ -1,5 +1,5 @@
 config:
-  name: "config-dev.yml"
+  name: "config-dev-plush.yml"
   branch: "master"
 spring:
   datasource:
