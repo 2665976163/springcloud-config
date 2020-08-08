@@ -1,0 +1,8 @@
+eureka:
+  instance:
+    ip-address: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.ip-address}:${server.port}/eureka/
