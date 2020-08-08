@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: springcloud-getway-server
+  cloud:
+    gateway:
+      routes:
+        - id: payment_routh2
+          uri: lb://CLOUD-PAYMENT-SERVICE
+          predicates:
+            - Path=/payment/lb/**
