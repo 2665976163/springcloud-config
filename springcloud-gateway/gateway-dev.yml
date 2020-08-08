@@ -4,7 +4,7 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: payment_routh2
+        - id: test
           uri: lb://CLOUD-PAYMENT-SERVICE
           predicates:
-            - Path=/payment/lb/**
+            - Path=/test/**
