@@ -8,3 +8,7 @@ spring:
           uri: lb://CLOUD-PAYMENT-SERVICE
           predicates:
             - Path=/test/**
+        - id: course
+          uri: lb://LXIT-COURSE
+          predicates:
+            - Path=/course/**
