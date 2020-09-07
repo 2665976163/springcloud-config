@@ -1,0 +1,17 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://47.106.210.134:6001/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 47.113.108.100
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*/*.xml
+  typeAliasesPackage: com.znsd.bean
+  global-config:
+    db-config:
+      id-type: AUTO
+  configuration:
+    map-underscore-to-camel-case: true
